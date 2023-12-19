@@ -1,0 +1,91 @@
+.content-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle{
+    text-align: center;
+    margin: 5px;
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Calibri';
+}
+
+#rectangle_1 {
+	top: 69px;
+	left: 582px;
+	width: 238px;
+	height: 45px;
+	background:rgba(15,71,175,1);
+}
+
+#rectangle_2 {
+	top: 114px;
+	left: 582px;
+	width: 238px;
+	height: 45px;
+	background:rgba(252,221,9,1);
+}
+
+#rectangle_3 {
+	top: 159px;
+	left: 582px;
+	width: 238px;
+	height: 45px;
+	background:rgba(218,18,26,1);
+}
+
+.contenedor-grupal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    height: 360px;
+    background-color:rgb(245, 245, 245);
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(187, 186, 186);
+    text-align: left;
+    /*Pruebas*/
+    width: 25%; /* Para dividir en tres columnas iguales */
+    box-sizing: border-box;
+    margin: 25px;
+}
+.image{
+    height: 148px;
+    width: 200px;
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 18px;
+    margin-right: 18px;
+
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+    margin-top: 18px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 2px;
+}
+
+.texto{
+    margin-top: 2px;
+    margin-left: 18px;
+    margin-right: 18px;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: normal;
+}
+
+.contenedor_final{
+    display: grid;
+    place-items: center;
+}
+.image_banner{
+    width: 85%;
+    margin-bottom: 25px;
+}

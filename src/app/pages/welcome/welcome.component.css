@@ -47,8 +47,7 @@
     border-radius: 15px;
     box-shadow: 5px 5px 10px rgb(187, 186, 186);
     text-align: left;
-    /*Pruebas*/
-    width: 25%; /* Para dividir en tres columnas iguales */
+    width: 25%;
     box-sizing: border-box;
     margin: 25px;
 }

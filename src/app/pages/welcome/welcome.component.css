@@ -1,7 +1,6 @@
 .content-container { 
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .tittle{
@@ -39,10 +38,8 @@
 .contenedor-grupal{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .contenedor{
-    display: grid;
     height: 360px;
     background-color:rgb(245, 245, 245);
     border-radius: 15px;
@@ -54,7 +51,7 @@
 }
 .image{
     height: 148px;
-    width: 200px;
+    width: 210px;
     display: inline-block;
     margin-top: 18px;
     margin-left: 18px;
@@ -81,10 +78,10 @@
 }
 
 .contenedor_final{
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
 }
 .image_banner{
-    width: 85%;
+    width: 850px;
     margin-bottom: 25px;
 }

@@ -42,14 +42,15 @@
     align-items: center;
 }
 .contenedor{
+    display: grid;
     height: 360px;
     background-color:rgb(245, 245, 245);
     border-radius: 15px;
     box-shadow: 5px 5px 10px rgb(187, 186, 186);
     text-align: left;
-    width: 25%;
-    box-sizing: border-box;
-    margin: 25px;
+    /*width: 25%;*/
+    width: 250px;
+    margin: 20px;
 }
 .image{
     height: 148px;
